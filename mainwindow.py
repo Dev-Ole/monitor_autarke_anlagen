@@ -1,0 +1,100 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'mainwindow.ui'
+#
+# Created by: PyQt5 UI code generator 5.5.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def MainLayout(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(800, 480)
+        MainWindow.setStyleSheet("background-color: rgb(0, 126, 189);")
+        MainWindow.showFullScreen()
+        self.centralWidget = QtWidgets.QWidget(MainWindow)
+        self.centralWidget.setObjectName("centralWidget")
+        self.capacity = QtWidgets.QProgressBar(self.centralWidget)
+        self.capacity.setGeometry(QtCore.QRect(670, 20, 118, 41))
+        self.capacity.setProperty("value", 0)
+        self.capacity.setObjectName("capacity")
+        self.img_akku = QtWidgets.QLabel(self.centralWidget)
+        self.img_akku.setGeometry(QtCore.QRect(620, 20, 41, 41))
+        self.img_akku.setText("")
+        self.img_akku.setPixmap(QtGui.QPixmap(":/system/img/system/if_energy_6031.png"))
+        self.img_akku.setScaledContents(True)
+        self.img_akku.setObjectName("img_akku")
+        self.m_overview = QtWidgets.QPushButton(self.centralWidget)
+        self.m_overview.setEnabled(True)
+        self.m_overview.setGeometry(QtCore.QRect(20, 10, 71, 61))
+        self.m_overview.setAutoFillBackground(False)
+        self.m_overview.setStyleSheet("background-color: rgb(232, 232, 232);")
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/system/img/system/if_Stats_32681.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.m_overview.setIcon(icon)
+        self.m_overview.setIconSize(QtCore.QSize(50, 70))
+        self.m_overview.setCheckable(False)
+        self.m_overview.setChecked(False)
+        self.m_overview.setAutoRepeat(False)
+        self.m_overview.setObjectName("m_overview")
+        self.m_weather = QtWidgets.QPushButton(self.centralWidget)
+        self.m_weather.setGeometry(QtCore.QRect(110, 10, 71, 61))
+        self.m_weather.setAutoFillBackground(False)
+        self.m_weather.setStyleSheet("background-color: rgb(232, 232, 232);")
+        self.m_weather.setText("")
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(":/system/img/system/if_Weather_669958.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.m_weather.setIcon(icon1)
+        self.m_weather.setIconSize(QtCore.QSize(50, 50))
+        self.m_weather.setCheckable(False)
+        self.m_weather.setChecked(False)
+        self.m_weather.setAutoRepeat(False)
+        self.m_weather.setAutoExclusive(False)
+        self.m_weather.setObjectName("m_weather")
+        self.m_settings = QtWidgets.QPushButton(self.centralWidget)
+        self.m_settings.setGeometry(QtCore.QRect(200, 10, 71, 61))
+        self.m_settings.setStyleSheet("background-color: rgb(232, 232, 232);")
+        self.m_settings.setText("")
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(":/system/img/system/if_Settings_105244.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.m_settings.setIcon(icon2)
+        self.m_settings.setIconSize(QtCore.QSize(50, 70))
+        self.m_settings.setCheckable(False)
+        self.m_settings.setChecked(False)
+        self.m_settings.setAutoRepeat(False)
+        self.m_settings.setObjectName("m_settings")
+        self.title_bg = QtWidgets.QPushButton(self.centralWidget)
+        self.title_bg.setGeometry(QtCore.QRect(330, 10, 231, 61))
+        self.title_bg.setStyleSheet("background-color: rgb(232, 232, 232);\n"
+"font: 75 20pt \"Noto Sans\";")
+        self.title_bg.setObjectName("title_bg")
+        self.line = QtWidgets.QFrame(self.centralWidget)
+        self.line.setGeometry(QtCore.QRect(20, 70, 761, 21))
+        self.line.setFrameShape(QtWidgets.QFrame.HLine)
+        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line.setObjectName("line")
+        self.content = QtWidgets.QWidget(self.centralWidget)
+        self.content.setGeometry(QtCore.QRect(20, 90, 761, 371))
+        self.content.setObjectName("content")
+        self.content.setStyleSheet("background-color: rgb(231, 231, 231);")
+        self.img_akku.raise_()
+        self.m_overview.raise_()
+        self.capacity.raise_()
+        self.m_weather.raise_()
+        self.m_settings.raise_()
+        self.title_bg.raise_()
+        self.line.raise_()
+        self.content.raise_()
+        MainWindow.setCentralWidget(self.centralWidget)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.title_bg.setText(_translate("MainWindow", "Übersicht"))
+
+import resources_rc
