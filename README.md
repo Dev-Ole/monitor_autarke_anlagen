@@ -8,9 +8,9 @@ Furthermore, the system also retrieves real-time weather data (OpenWeatherMap) t
 forecast.
 
 Example how the forecast looks like
-<img src="https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png)https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Display1.png">
+<img src="https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Display1.png">
 
 Snapshot from the Lab
-<img src="https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png)https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png">
+<img src="https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png">
 
 
