@@ -7,4 +7,10 @@ generation and consumption, makes a forecast of the remaining time and controls 
 Furthermore, the system also retrieves real-time weather data (OpenWeatherMap) to generate a more accurate
 forecast.
 
-<img src="/data/labor1">
+Example how the forecast looks like
+<img src="https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png)https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Display1.png">
+
+Snapshot from the Lab
+<img src="https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png)https://github.com/Dev-Ole/monitor_autarke_anlagen/blob/main/data/Labor1.png">
+
+
